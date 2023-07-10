@@ -1,0 +1,14 @@
+# datasetformchain-js:
+#   filter: rjsmin
+#   output: ckanext-datasetformchain/%(version)s-datasetformchain.js
+#   contents:
+#     - js/datasetformchain.js
+#   extra:
+#     preload:
+#       - base/main
+
+# datasetformchain-css:
+#   filter: cssrewrite
+#   output: ckanext-datasetformchain/%(version)s-datasetformchain.css
+#   contents:
+#     - css/datasetformchain.css

@@ -1,0 +1,5 @@
+include README.rst
+include LICENSE
+include requirements.txt
+recursive-include ckanext/datasetformchain *.html *.json *.js *.less *.css *.mo *.yml
+recursive-include ckanext/datasetformchain/migration *.ini *.py *.mako
